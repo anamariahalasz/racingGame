@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c4e1bad3-e251-4835-a567-345d30f7207b" name="Default Changelist" comment="studied classes, variables and primitive data types">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Engine.java" afterDir="false" />
+    <list default="true" id="c4e1bad3-e251-4835-a567-345d30f7207b" name="Default Changelist" comment="studied encapsulation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/fasttrackit/Vehicle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,16 +20,38 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
-              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+              <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Car.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="88" selection-start-line="5" selection-start-column="88" selection-end-line="5" selection-end-column="88" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,10 +66,50 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Vehicle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            <state relative-caret-position="68">
+              <caret line="4" column="54" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="54" />
+              <folding>
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#545#546#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+                <element signature="e#649#650#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#817#818#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+                <element signature="e#901#902#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#963#964#0" expanded="true" />
+                <element signature="e#1007#1008#0" expanded="true" />
+                <element signature="e#1045#1046#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/AutoVehicle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/cheater/CheatingCar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -69,8 +130,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Engine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/AutoVehicle.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Car.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/cheater/CheatingCar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/Vehicle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java" />
       </list>
     </option>
   </component>
@@ -95,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -155,12 +219,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544642048743" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545246514748" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -206,12 +271,54 @@
       <updated>1544034580125</updated>
       <workItem from="1544034589303" duration="1740000" />
       <workItem from="1544552454989" duration="256000" />
-      <workItem from="1544632699123" duration="8417000" />
+      <workItem from="1544632699123" duration="9208000" />
+      <workItem from="1544815814244" duration="157000" />
+      <workItem from="1545176612594" duration="796000" />
+      <workItem from="1545179553526" duration="9000" />
+      <workItem from="1545179806981" duration="12000" />
+      <workItem from="1545179874869" duration="2173000" />
+      <workItem from="1545236624268" duration="10856000" />
     </task>
+    <task id="LOCAL-00001" summary="studied classes, variables and primitive data types">
+      <created>1544642087272</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544642087272</updated>
+    </task>
+    <task id="LOCAL-00002" summary="studied classes, variables and primitive data types">
+      <created>1544642560446</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544642560446</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added gitignore">
+      <created>1544642637010</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544642637010</updated>
+    </task>
+    <task id="LOCAL-00004" summary="studied inheritance and methods">
+      <created>1545243573999</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545243573999</updated>
+    </task>
+    <task id="LOCAL-00005" summary="studied constructors">
+      <created>1545245344239</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545245344239</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10413000" />
+    <option name="totallyTimeSpent" value="25050000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -232,11 +339,11 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.18176973" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.1380597" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2665222" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2665222" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -262,19 +369,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="studied classes, variables and primitive data types" />
-    <option name="LAST_COMMIT_MESSAGE" value="studied classes, variables and primitive data types" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="added gitignore" />
+    <MESSAGE value="studied inheritance and methods" />
+    <MESSAGE value="studied constructors" />
+    <MESSAGE value="studied encapsulation" />
+    <option name="LAST_COMMIT_MESSAGE" value="studied encapsulation" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/org/fasttrackit/AppTest.java">
@@ -287,7 +386,14 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -298,17 +404,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Car.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/AutoVehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/cheater/CheatingCar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="88" selection-start-line="5" selection-start-column="88" selection-end-line="5" selection-end-column="88" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/Vehicle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="54" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="54" />
+          <folding>
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#545#546#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#649#650#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#963#964#0" expanded="true" />
+            <element signature="e#1007#1008#0" expanded="true" />
+            <element signature="e#1045#1046#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/fasttrackit/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="49" column="8" lean-forward="true" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
         </state>
       </provider>
     </entry>
