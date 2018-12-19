@@ -5,5 +5,4 @@ import org.fasttrackit.Vehicle;
 public class CheatingCar extends Vehicle {
 
 
-
 }

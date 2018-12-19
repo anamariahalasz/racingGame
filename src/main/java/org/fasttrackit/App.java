@@ -10,7 +10,7 @@ public class App
     {
         // declaring a variable and instalating a Car object
         // this is also called initializing a variable
-       Car firstCompetitor = new Car();
+       Car firstCompetitor = new Car(new Engine());
        firstCompetitor.name = "Dacia";
        firstCompetitor.color = "black";
        firstCompetitor.doorCount = 5;
@@ -18,9 +18,11 @@ public class App
 
         // local variables are variables declared inside a method
         // they don`t receive default values
+        Car secondCompetitor = new Car(new Engine());
+        secondCompetitor.name = "Golf";
+
        Engine firstEngine = new Engine();
        firstEngine.manufacturer = "Renault";
-
 
        // sout prints a message to the console
         System.out.println(firstEngine.manufacturer);
