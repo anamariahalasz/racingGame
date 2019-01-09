@@ -17,8 +17,13 @@ public class Vehicle {
         double distance = speed * durationInHours;
         System.out.println("Traveled distance " + distance);
         return distance;
-
     }
+
+    //method overloading
+    public double accelerate (double speed) {
+        return accelerate(speed, 1);
+    }
+
 
     public String getName() {
         return name;
