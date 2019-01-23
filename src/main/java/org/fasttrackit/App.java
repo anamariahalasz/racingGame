@@ -37,19 +37,86 @@ public class App
 //
 //        double traveledDistance = firstCompetitor.accelerate(100, 30);
 //
-        Vehicle vehicle = new Vehicle();
-        vehicle.applicationTotalNumberOfVehicles = 1;
+//        Vehicle vehicle = new Vehicle();
+//        vehicle.applicationTotalNumberOfVehicles = 1;
+//
+//        System.out.println("Total from vehicle 1: " + vehicle.applicationTotalNumberOfVehicles);
+//
+//        Vehicle vehicle2 = new Vehicle();
+//        vehicle2.applicationTotalNumberOfVehicles = 2;
+//
+//        System.out.println("Total from vehicle 2: " + vehicle2.applicationTotalNumberOfVehicles);
+//        System.out.println("Total from vehicle 1: " + vehicle.applicationTotalNumberOfVehicles);
+//
 
-        System.out.println("Total from vehicle 1: " + vehicle.applicationTotalNumberOfVehicles);
+        Game game = new Game();
 
-        Vehicle vehicle2 = new Vehicle();
-        vehicle2.applicationTotalNumberOfVehicles = 2;
+        game.addCompetitors(2);
+        game.displayCompetitors();
 
-        System.out.println("Total from vehicle 2: " + vehicle2.applicationTotalNumberOfVehicles);
-        System.out.println("Total from vehicle 1: " + vehicle.applicationTotalNumberOfVehicles);
+        game.addTrack(0, new Track("Highway", 300));
+        game.addTrack(1, new Track("Seaside", 100));
+
+        game.displayAvailableTracks();
 
 
 
+
+//        // modulo operator
+//        System.out.println(4 % 2);
+//        System.out.println(4 % 3);
+
+
+//        // polymorphism - an object can take multiple forms
+//        Vehicle cheatingCar = new CheatingCar();
+//        // implementation of accelerate method from CheatingCar will be used
+//        cheatingCar.accelerate(10, 2);
+//
+//        // type casting
+//        ((CheatingCar) cheatingCar).testMethod();
+
+
+//
+//
+//        Engine firstEngine = new Engine();
+//        firstEngine.manufacturer = "Renault";
+//
+//        System.out.println(firstEngine);
+//
+//        CheatingCar cheatingCompetitor= new CheatingCar();
+//        cheatingCompetitor.setName("Test1");
+//        double distance = cheatingCompetitor.accelerate(70);
+//
+//        System.out.println("Cheating parcurge distanta de " + distance);
+
+//        new AutoVehicle().accelerate(100);
+//
+//        // sout prints a message to the console
+//        System.out.println(firstEngine.manufacturer);
+//
+//        // declaring a variable and instantiating a Car object
+//        // this is also called initializing a variable
+//        Car firstCompetitor = new Car(firstEngine);
+//        firstCompetitor.setName("    Dacia   ");
+//        firstCompetitor.setColor("black");
+//        firstCompetitor.doorCount = 5;
+//        firstCompetitor.setMileage(9.5);
+//
+//        // local variables are variables declared inside a method
+//        // they don't receive default values
+//        Car secondCompetitor = new Car(new Engine());
+//        secondCompetitor.setName("Golf");
+//
+//        System.out.println(firstEngine.manufacturer);
+//        System.out.println(firstCompetitor.engine.manufacturer);
+//
+//        double traveledDistance =
+//                firstCompetitor.accelerate(100, 30);
+//
+//        Engine autoVehicleEngine = new Engine();
+//        autoVehicleEngine.manufacturer = "Renault";
+//
+//        AutoVehicle autoVehicle = new AutoVehicle(autoVehicleEngine);
 
 
     }
